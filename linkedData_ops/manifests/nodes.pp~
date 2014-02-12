@@ -4,7 +4,7 @@ node "linkedData.example.com" {
   include app
   include python-pip
 #  include python-setuptools
-  include python-rdflib
+#  include python-rdflib
 #  include nasm
   include python-html5lib
 }

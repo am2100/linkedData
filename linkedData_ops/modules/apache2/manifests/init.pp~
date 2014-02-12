@@ -18,8 +18,8 @@ class apache2 {
       group  => root,
       mode   => 644,
       source => "puppet:///modules/apache2/apache2.conf";
-    "/etc/apache2/sites-available/default":
-      source  => "puppet:///modules/apache2/default",
+    "/etc/apache2/sites-enabled/app.conf":
+      source  => "puppet:///modules/apache2/app.conf",
       owner   => root,
       group   => root,
       notify  => Service["apache2"],

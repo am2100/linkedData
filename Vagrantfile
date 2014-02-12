@@ -12,7 +12,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.hostname = "linkedData.example.com"
 
     config.vm.network :forwarded_port, guest: 80, host: 4567
-
+    config.vm.network :forwarded_port, guest: 8080, host: 4568
+	
     config.vm.synced_folder "./linkedData_app/", "/home/vagrant/linkedData_app/"
     config.vm.synced_folder "./linkedData_ops/", "/etc/puppet/"
     config.vm.synced_folder "./guest/", "/home/vagrant/host/"
