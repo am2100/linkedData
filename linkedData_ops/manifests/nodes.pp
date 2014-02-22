@@ -5,4 +5,6 @@ node "linkedData.example.com" {
   include python-pip
   include python-html5lib
   include apt-file
+  include java
+#  include arq
 }
