@@ -3,8 +3,8 @@ node "linkedData.example.com" {
   include apache2
   include app
   include python-pip
-#  include python-setuptools
-#  include python-rdflib
-#  include nasm
   include python-html5lib
+  include apt-file
+  include java
+#  include arq
 }

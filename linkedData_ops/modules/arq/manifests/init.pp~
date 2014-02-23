@@ -20,7 +20,7 @@ class arq {
 
   # Setup the arq path
   exec { "arq-root":
-    command => "bash -c \"export ARQROOT='/applications/apache-jena-2.11.1'\"",
+    command => "export ARQROOT='/applications/apache-jena-2.11.1'",
     require => Exec["untar-arq"],
   }
 }

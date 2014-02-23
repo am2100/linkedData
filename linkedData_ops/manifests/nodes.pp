@@ -6,5 +6,5 @@ node "linkedData.example.com" {
   include python-html5lib
   include apt-file
   include java
-#  include arq
+  include arq
 }
