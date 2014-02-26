@@ -5,8 +5,9 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 
   <me> a foaf:Person
-   ; foaf:family_name ""
-   ; foaf:givenname ""
-   ; foaf:gender ""
-   ; foaf:title ""
+   ; foaf:family_name "Noble"
+   ; foaf:givenname "James Essery Brunel"
+   ; foaf:gender "Male"
+   ; foaf:title "Mr"
+   ; rel:parentOf <http://1.0.0.127/family_tree/zebedeeJackBrunelNoble/foaf.ttf>
    ;
