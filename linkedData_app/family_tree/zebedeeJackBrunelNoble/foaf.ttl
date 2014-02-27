@@ -11,4 +11,8 @@
    ; foaf:title "Master"
    ; rel:childOf <http://1.0.0.127/family_tree/jamesEsseryBrunelNoble/foaf.ttf>
    ; rel:childOf <http://1.0.0.127/family_tree/jacquelineAnneMansfield/foaf.ttf>
+   ; rel:grandchildOf <http://1.0.0.127/family_tree/helenaMargaretRose-Richards/foaf.ttf>
+   ; rel:grandchildOf <http://1.0.0.127/family_tree/peterSaxtonFitzgeraldNoble/foaf.ttf>
+   ; rel:grandchildOf <http://1.0.0.127/family_tree/anneYvonneMansfield/foaf.ttf>
+   ; rel:grandchildOf <http://1.0.0.127/family_tree/edgarJackMansfield/foaf.ttf>
    ;

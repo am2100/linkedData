@@ -5,10 +5,13 @@
 @prefix rel: <http://purl.org/vocab/relationship/> .
 
   <me> a foaf:Person
-   ; foaf:family_name "Noble"
-   ; foaf:givenname "James Essery Brunel"
-   ; foaf:gender "Male"
-   ; foaf:title "Mr"
+   ; foaf:family_name "Mansfield"
+   ; foaf:givenname "Jacqueline Anne"
+   ; foaf:gender "Female"
+   ; foaf:title "Ms"
    ; rel:parentOf <http://1.0.0.127/family_tree/zebedeeJackBrunelNoble/foaf.ttf>
-   ; rel:spouseOf <http://1.0.0.127/family_tree/jacquelineAnneMansfield/foaf.ttf>
-   ; rel:childOf <http://1.0.0.127/family_tree/helenaMargaretRose-Richards/foaf.ttf>
+   ; rel:spouseOf <http://1.0.0.127/family_tree/jamesEsseryBrunelNoble/foaf.ttf>
+   ; rel:childOf <http://1.0.0.127/family_tree/anneYvonneMansfield/foaf.ttf>
+   ; rel:childOf <http://1.0.0.127/family_tree/edgarJackMansfield/foaf.ttf>
+   ;
+

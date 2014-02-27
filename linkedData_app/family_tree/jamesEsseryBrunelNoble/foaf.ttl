@@ -10,4 +10,8 @@
    ; foaf:gender "Male"
    ; foaf:title "Mr"
    ; rel:parentOf <http://1.0.0.127/family_tree/zebedeeJackBrunelNoble/foaf.ttf>
+   ; rel:spouseOf <http://1.0.0.127/family_tree/jacquelineAnneMansfield/foaf.ttf>
+   ; rel:childOf <http://1.0.0.127/family_tree/helenaMargaretRose-Richards/foaf.ttf>
+   ; rel:childOf <http://1.0.0.127/family_tree/peterSaxtonFitzgeraldNoble/foaf.ttf>
+   ; rel:grandchildOf <http://1.0.0.127/family_tree/humphreyBrunelNoble/foaf.ttf>
    ;
