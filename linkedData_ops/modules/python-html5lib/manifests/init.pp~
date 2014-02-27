@@ -1,6 +1,0 @@
-class html5lib {
-  package {
-    "html5lib":
-      ensure => present
-  }
-}
